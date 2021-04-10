@@ -1,0 +1,193 @@
+{
+    "continents": [
+        {
+            "id": "europe", 
+            "title": "Europa",
+            "description": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste",
+            "countries": 55,
+            "languages": 60,
+            "hundreadPlus": [
+                {
+                    "id": 1, 
+                    "name": "Londres", 
+                    "country": "Reino Unido", 
+                    "image": "/assets/details/hundreadPlus/londres.png",
+                    "countryIcon": "/assets/details/hundreadPlus/icons/reinoUnido.png"
+                },
+                {
+                    "id": 2, 
+                    "name": "Paris", 
+                    "country": "França", 
+                    "image": "/assets/details/hundreadPlus/paris.png",
+                    "countryIcon": "/assets/details/hundreadPlus/icons/franca.png"
+                },
+                {
+                    "id": 3, 
+                    "name": "Roma", 
+                    "country": "Itália", 
+                    "image": "/assets/details/hundreadPlus/roma.png",
+                    "countryIcon": "/assets/details/hundreadPlus/icons/italia.png"
+                },
+                {
+                    "id": 4, 
+                    "name": "Praga", 
+                    "country": "República Tcheca", 
+                    "image": "/assets/details/hundreadPlus/praga.png",
+                    "countryIcon": "/assets/details/hundreadPlus/icons/republicaTcheca.png"
+                },
+                {
+                    "id": 5, 
+                    "name": "Amsterdã", 
+                    "country": "Holanda", 
+                    "image": "/assets/details/hundreadPlus/amsterda.png",
+                    "countryIcon": "/assets/details/hundreadPlus/icons/holanda.png"
+                }
+            ]
+        },
+
+        {
+            "id": "america", 
+            "title": "América",
+            "description": "A américa Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et egestas elit, laoreet congue sem. Quisque sed blandit tellus, sagittis malesuada nisi. Fusce a mollis felis. Cras vel tellus molestie, sagittis leo ultrices, convallis velit. Donec nec convallis enim. Pellentesque tempus, sapien quis volutpat pulvinar, felis odio pellentesque urna, non suscipit velit mauris vitae lorem. Curabitur ut leo arcu. Fusce vel posuere arcu. Integer pellentesque vitae augue nec fermentum.",
+            "countries": 40,
+            "languages": 12,
+            "hundreadPlus": [
+                {
+                    "id": 6, 
+                    "name": "Nova Iórque", 
+                    "country": "Estados Unidos", 
+                    "image": "/assets/details/hundreadPlus/londres.png",
+                    "countryIcon": "/assets/details/hundreadPlus/icons/reinoUnido.png"
+                },
+                {
+                    "id": 7, 
+                    "name": "Rio de Janeiro", 
+                    "country": "Brasil", 
+                    "image": "/assets/details/hundreadPlus/paris.png",
+                    "countryIcon": "/assets/details/hundreadPlus/icons/franca.png"
+                },
+                {
+                    "id": 8, 
+                    "name": "São Paulo", 
+                    "country": "Brasil", 
+                    "image": "/assets/details/hundreadPlus/roma.png",
+                    "countryIcon": "/assets/details/hundreadPlus/icons/italia.png"
+                },
+                {
+                    "id": 9, 
+                    "name": "Buenos Aires", 
+                    "country": "Argentina", 
+                    "image": "/assets/details/hundreadPlus/praga.png",
+                    "countryIcon": "/assets/details/hundreadPlus/icons/republicaTcheca.png"
+                }
+            ]
+        },
+
+        {
+            "id": "asia", 
+            "title": "Ásia",
+            "description": "A Ásia Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et egestas elit, laoreet congue sem. Quisque sed blandit tellus, sagittis malesuada nisi. Fusce a mollis felis. Cras vel tellus molestie, sagittis leo ultrices, convallis velit. Donec nec convallis enim. Pellentesque tempus, sapien quis volutpat pulvinar, felis odio pellentesque urna, non suscipit velit mauris vitae lorem. Curabitur ut leo arcu. Fusce vel posuere arcu. Integer pellentesque vitae augue nec fermentum.",
+            "countries": 80,
+            "languages": 95,
+            "hundreadPlus": [
+                {
+                    "id": 10, 
+                    "name": "Tóquio", 
+                    "country": "Japão", 
+                    "image": "/assets/details/hundreadPlus/londres.png",
+                    "countryIcon": "/assets/details/hundreadPlus/icons/reinoUnido.png"
+                },
+                {
+                    "id": 11, 
+                    "name": "Seul", 
+                    "country": "Coréia do sul", 
+                    "image": "/assets/details/hundreadPlus/paris.png",
+                    "countryIcon": "/assets/details/hundreadPlus/icons/franca.png"
+                },
+                {
+                    "id": 12, 
+                    "name": "Hong Kong", 
+                    "country": "China", 
+                    "image": "/assets/details/hundreadPlus/roma.png",
+                    "countryIcon": "/assets/details/hundreadPlus/icons/italia.png"
+                },
+                {
+                    "id": 13, 
+                    "name": "Xangai", 
+                    "country": "China", 
+                    "image": "/assets/details/hundreadPlus/praga.png",
+                    "countryIcon": "/assets/details/hundreadPlus/icons/republicaTcheca.png"
+                },
+                {
+                    "id": 14, 
+                    "name": "Nova Dehli", 
+                    "country": "India", 
+                    "image": "/assets/details/hundreadPlus/praga.png",
+                    "countryIcon": "/assets/details/hundreadPlus/icons/republicaTcheca.png"
+                }
+            ]
+        },
+
+        {
+            "id": "africa", 
+            "title": "África",
+            "description": "A África Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et egestas elit, laoreet congue sem. Quisque sed blandit tellus, sagittis malesuada nisi. Fusce a mollis felis. Cras vel tellus molestie, sagittis leo ultrices, convallis velit. Donec nec convallis enim. Pellentesque tempus, sapien quis volutpat pulvinar, felis odio pellentesque urna, non suscipit velit mauris vitae lorem. Curabitur ut leo arcu. Fusce vel posuere arcu. Integer pellentesque vitae augue nec fermentum.",
+            "countries": 70,
+            "languages": 60,
+            "hundreadPlus": [
+                {
+                    "id": 15, 
+                    "name": "Cidade do Cabo", 
+                    "country": "África do Sul", 
+                    "image": "/assets/details/hundreadPlus/londres.png",
+                    "countryIcon": "/assets/details/hundreadPlus/icons/reinoUnido.png"
+                },
+                {
+                    "id": 16, 
+                    "name": "Cairo", 
+                    "country": "Egito", 
+                    "image": "/assets/details/hundreadPlus/paris.png",
+                    "countryIcon": "/assets/details/hundreadPlus/icons/franca.png"
+                },
+                {
+                    "id": 17, 
+                    "name": "Johannesburgo", 
+                    "country": "África do Sul", 
+                    "image": "/assets/details/hundreadPlus/paris.png",
+                    "countryIcon": "/assets/details/hundreadPlus/icons/franca.png"
+                }
+            ]
+        },
+
+        {
+            "id": "oceania", 
+            "title": "Oceania",
+            "description": "A Oceania Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et egestas elit, laoreet congue sem. Quisque sed blandit tellus, sagittis malesuada nisi. Fusce a mollis felis. Cras vel tellus molestie, sagittis leo ultrices, convallis velit. Donec nec convallis enim. Pellentesque tempus, sapien quis volutpat pulvinar, felis odio pellentesque urna, non suscipit velit mauris vitae lorem. Curabitur ut leo arcu. Fusce vel posuere arcu. Integer pellentesque vitae augue nec fermentum.",
+            "countries": 20,
+            "languages": 22,
+            "hundreadPlus": [
+                {
+                    "id": 18, 
+                    "name": "Sidney", 
+                    "country": "Austrália", 
+                    "image": "/assets/details/hundreadPlus/londres.png",
+                    "countryIcon": "/assets/details/hundreadPlus/icons/reinoUnido.png"
+                },
+                {
+                    "id": 19, 
+                    "name": "Camberra", 
+                    "country": "Austrália", 
+                    "image": "/assets/details/hundreadPlus/paris.png",
+                    "countryIcon": "/assets/details/hundreadPlus/icons/franca.png"
+                },
+                {
+                    "id": 20, 
+                    "name": "Wellington", 
+                    "country": "Nova zelândia", 
+                    "image": "/assets/details/hundreadPlus/paris.png",
+                    "countryIcon": "/assets/details/hundreadPlus/icons/franca.png"
+                }
+            ]
+        }
+    ]
+}

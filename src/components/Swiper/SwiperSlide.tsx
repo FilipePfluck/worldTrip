@@ -1,23 +1,28 @@
+import Link from 'next/link'
+
 import { Flex } from '@chakra-ui/react'
 
 interface SwiperSlideContent { 
-    background: string
+    background: string,
+    continent: string
 }
 
-const SwiperSlideContent: React.FC<SwiperSlideContent> = ({children, background}) => {
+const SwiperSlideContent: React.FC<SwiperSlideContent> = ({children, background, continent}) => {
     return(
-        <Flex 
-            h="400"
-            bgImage={background}
-            bgSize="120%"
-            bgPosition="center"
-            bgRepeat="no-repeat"
-            align="center"
-            justify="center"
-            direction="column"
-        >
-            {children}
-        </Flex>
+        <Link href={`/continent/${continent}`}>
+            <Flex 
+                h="400"
+                bgImage={background}
+                bgSize="120%"
+                bgPosition="center"
+                bgRepeat="no-repeat"
+                align="center"
+                justify="center"
+                direction="column"
+            >
+                {children}
+            </Flex>
+        </Link>
     )
 }
 

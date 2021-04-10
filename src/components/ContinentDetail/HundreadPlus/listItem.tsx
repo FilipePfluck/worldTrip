@@ -1,9 +1,16 @@
 import { Flex ,Image, Text} from '@chakra-ui/react'
 
-const ListItem = () => {
+interface ListItemProps {
+    name: string
+    country: string
+    image: string
+    countryIcon: string
+}
+
+const ListItem: React.FC<ListItemProps> = ({name, country, image, countryIcon}) => {
     return(
         <Flex direction="column">
-                    <Image src="/assets/details/hundreadPlus/londres.png"/>
+                    <Image src={image}/>
                     <Flex 
                         align="center" 
                         justify="space-between" 
@@ -15,13 +22,13 @@ const ListItem = () => {
                     >
                         <Flex direction="column">
                             <Text fontSize="20" fontWeight="semibold" color="#57686B">
-                                Londres
+                                {name}
                             </Text>
                             <Text fontSize="16" color="#999">
-                                Reino Unido
+                                {country}
                             </Text>
                         </Flex>
-                        <Image src="/assets/details/hundreadPlus/icons/reinoUnido.png"/>
+                        <Image src={countryIcon}/>
                     </Flex>
                 </Flex>
     )

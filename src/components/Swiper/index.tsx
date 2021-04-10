@@ -22,31 +22,31 @@ export default () => {
         
     >
       <SwiperSlide>
-        <SwiperSlideContent background="url(/assets/Europa.png)">
+        <SwiperSlideContent continent="europe" background="url(/assets/Europa.png)">
             <Heading>Europa</Heading>
             <Text mt="8" fontSize="24" fontWeight="bold">O continente mais antigo</Text>
         </SwiperSlideContent>
       </SwiperSlide>
       <SwiperSlide>
-        <SwiperSlideContent background="url(/assets/America.jpg)">
+        <SwiperSlideContent continent="america" background="url(/assets/America.jpg)">
             <Heading>América</Heading>
             <Text mt="8" fontSize="24" fontWeight="bold">O novo mundo</Text>
         </SwiperSlideContent>
       </SwiperSlide>
       <SwiperSlide>
-        <SwiperSlideContent background="url(/assets/Asia.jpg)">
+        <SwiperSlideContent continent="asia" background="url(/assets/Asia.jpg)">
             <Heading>Ásia</Heading>
             <Text mt="8" fontSize="24" fontWeight="bold">O maior continente</Text>
         </SwiperSlideContent>
       </SwiperSlide>
       <SwiperSlide>
-        <SwiperSlideContent background="url(/assets/Africa.jpg)">
+        <SwiperSlideContent continent="africa" background="url(/assets/Africa.jpg)">
             <Heading>África</Heading>
             <Text mt="8" fontSize="24" fontWeight="bold">O continente mais antigo</Text>
         </SwiperSlideContent>
       </SwiperSlide>
       <SwiperSlide>
-        <SwiperSlideContent background="url(/assets/Oceania.jpg)">
+        <SwiperSlideContent continent="oceania" background="url(/assets/Oceania.jpg)">
             <Heading>Oceania</Heading>
             <Text mt="8" fontSize="24" fontWeight="bold">O continente mais recente</Text>
         </SwiperSlideContent>

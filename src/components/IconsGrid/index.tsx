@@ -8,7 +8,7 @@ const IconsGrid = () => {
         >   
             <Flex direction="column" align="center">
                 <Image src="/assets/cocktail 1.svg"/>
-                <Text mt="4" fontWeight="semibold">vida noturna</Text>
+                <Text mt="4" fontWeight="semibold" fontSize={["14", "16"]}>vida noturna</Text>
             </Flex>
             
             <Flex direction="column" align="center">

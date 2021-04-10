@@ -1,9 +1,14 @@
 import { Flex, Heading } from "@chakra-ui/layout"
 
-const ContinentBanner = () => {
+interface ContinentBannerProps {
+    name: string
+    image?: string
+}
+
+const ContinentBanner: React.FC<ContinentBannerProps> = ({name}) => {
     return(
         <Flex
-            h="560px"
+            h={["200px","560px"]}
             w="100%"
             p="24"
             bgImage="url(/assets/details/Europa.png)"
@@ -11,7 +16,7 @@ const ContinentBanner = () => {
             bgPosition="center"
             bgRepeat="no-repeat"
         >
-            <Heading mt="auto">Europa</Heading>
+            <Heading mt="auto">{name}</Heading>
         </Flex>
     )
 }
